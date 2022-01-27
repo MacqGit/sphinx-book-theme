@@ -132,6 +132,10 @@ dmypy.json
 # mac OS
 .DS_Store
 
+#Sass
+.sass-cache/
+*.map
+
 # VS Code
 .vscode/
 

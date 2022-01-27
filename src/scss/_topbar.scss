@@ -56,6 +56,17 @@
             }
         }
 
+		// language selector
+		.dropdown {
+  				margin-left: 20px;
+				margin-top: 3px
+			}
+
+		.dropdown-menu, .dropdown-toggle {
+				font-size: small
+			}
+
+
         label, button {
             &:hover i {
                 color: black;

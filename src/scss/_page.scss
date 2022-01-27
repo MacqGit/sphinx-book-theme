@@ -50,13 +50,13 @@ main.bd-content {
 
             &:hover {
                 background-color: transparent;
-                color: rgba(var(--pst-color-link), 1);;
+                color: rgba($pst-color-link, 1 );
                 opacity: 1 !important;
             }
         }
 
         a, a:visited {
-            color: rgba(var(--pst-color-link), 1);;
+            color: rgba($pst-color-link, 1);
         }
 
         h1, h2, h3, h4, h5 {
@@ -97,13 +97,13 @@ main.bd-content {
                     line-height: 1.3em;
                 }
 
-                .prevnext-label, {
+                .prevnext-label {
                     color: $non-content-grey;
                 }
 
                 .prevnext-title {
                     font-size: 1.1em;
-                    color: rgba(var(--pst-color-link), 1);
+                    color: rgba($pst-color-link, 1);
                     font-weight: 500;
                 }
 
@@ -552,7 +552,7 @@ div.cell {
 .admonition {
     // Soften admonition styling from the PyData Theme
     border-radius: $box-border-radius;
-    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.05), 0 0 0.0625rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.05), 0 0 0.0625rem RGBA(0, 0, 0, 0.1);
 
     // Admonition seealso styling
     &.seealso {
