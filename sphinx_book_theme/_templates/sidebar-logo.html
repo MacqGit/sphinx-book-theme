@@ -1,5 +1,9 @@
 <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="{{ pathto('index') }}">
+      {% if theme_logo_landing_url %}
+      <a class="navbar-brand text-wrap" href="{{ theme_logo_landing_url }}">
+      {% else %}
+      <a class="navbar-brand text-wrap" href="{{ pathto('index') }}">
+      {% endif %}     
       {% if logo %}
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
         {% set logo_url=logo %}
