@@ -49,12 +49,12 @@ function toggleFullScreen() {
 }
 
 // Enable tooltips
-var initTooltips = () => {
+/*var initTooltips = () => {
   $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();
   });
 }
-
+*/
 var initTocHide = () => {
   // Hide the TOC when we scroll down
   var scrollTimeout;
@@ -114,7 +114,7 @@ var initThebeSBT = () => {
   initThebe();
 }
 
-sbRunWhenDOMLoaded(initTooltips)
+/*sbRunWhenDOMLoaded(initTooltips)*/
 sbRunWhenDOMLoaded(initTriggerNavBar)
 sbRunWhenDOMLoaded(scrollToActive)
 sbRunWhenDOMLoaded(initTocHide)
