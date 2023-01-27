@@ -19,7 +19,7 @@ from sphinx.util import logging
 from .launch import add_hub_urls
 from . import static as theme_static
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 """sphinx-book-theme version"""
 
 SPHINX_LOGGER = logging.getLogger(__name__)
@@ -201,6 +201,8 @@ def add_to_context(app, pagename, templatename, context, doctree):
     
     if ("theme_multilingual" in context):
         context["theme_multilingual"] = _string_or_bool(context["theme_multilingual"])
+    if ("theme_versions" in context):
+        context["theme_versions"] = _string_or_bool(context["theme_versions"])
 
 def update_thebe_config(app, env, docnames):
     """Update thebe configuration with SBT-specific values"""

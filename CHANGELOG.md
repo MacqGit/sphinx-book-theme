@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.3.0
+
+Add Versions button
+
+## v0.2.0
+
+Add Multilingual button
+
+____
+
 ## v0.1.10...v0.2.0
 
 This release includes a few under-the-hood and performance improvements to the CSS and HTML of the theme. While there are no major new features, some of these changes have restructured the HTML so double-check your documentation, especially if you had custom CSS rules the sidebar.
