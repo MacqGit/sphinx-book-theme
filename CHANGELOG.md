@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.0
+
+Adapt dependancies
+
 ## v0.3.0
 
 Add Versions button
